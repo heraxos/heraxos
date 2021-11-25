@@ -1,87 +1,173 @@
 <!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Тестовый сайт 2</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+ 
+  <body>
 
-<html>
+   <header>
+    <div >
+      <img id="img_header" src="http://getdrawings.com/image/smurf-drawing-58.jpg" alt="Описание картинки" /> 
+      <div id="div_headertittle">Тестовый сайт 2</div>
+    </div>
+   </header>
 
-<head>
-	<meta charset="UTF-8">
-	<title> Оффициальный Сайт КуБГУ</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-</head>
+   <main>
+    <div>
+     <nav>Меню сайта:
+	<ul>
+	<li><a href="#Гиперссылки">Список гиперссылок</a></li>
+	<li><a href="#Таблица">Таблица</a></li>
+	<li><a href="#Форма">Форма</a></li>
+	</ul>
+     </nav>
+    </div>
 
-<body>
-	<div style="background-color: rgb(100, 99, 23);">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-5">
-					<img src="smurf.jpg" width=232px height=220px alt="NOPE!">
-				</div>
-				<div class="col-md-5" style="background-color:rgb(98, 95, 192) ">
-					<h2>Oффициальный сайт </h2>
-					<h1 style="color:rgb(255, 104, 145);"> КубГУ</h1>
-				</div>
-				<div class="col-md-2" style="background-color:grey;border: 2px solid silver;">
-					<img src="smurf1.jpg" width=200px height=200px alt="">
-				</div>
-			</div>
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-2" style="background-color:rgb(80, 80, 191)">
-						<h3>Меню Сайта</h3>
-						<table>
-							<ul>
-								<li>
-									<a href="kubsu.ru" style="color:rgb(250, 208, 126)">
-										<h5>kubsu.ru</h5>
-									</a>
-								</li>
-								<br>
-								<li>
-									<a href="kubsu.ru/education" style="color:rgb(250, 208, 126)">
-										<h5>Education</h5>
-									</a>
-								</li>
-								<br>
-								<li>
-									<a href="kubsu.ru/science" style="color:rgb(250, 208, 126)">
-										<h5>Science</h5>
-									</a>
-								</li>
-							</ul>
-						</table>
-						<p>Quid quid latine dictum sit, altum viditur. Mundus vult decipi, ergo decipiatur. Draco dormiens nunquam titillandus</p>
-						<br>
-					</div>
-					<div class="col-md-10" style="background-color: rgb(85, 85, 192);">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="https://kubsu.ru/ru/university">
-										<h3 style="color:rgb(250, 208, 126) ;">Университет</h3>
-									</a>
-								</div>
-								<div class="col-md-3">
-									<a href="https://kubsu.ru/ru/education">
-										<h3 style="color:rgb(250, 208, 126)">Образование</h3>
-									</a>
-								</div>
-								<div class="col-md-4">
-									<a href="https://kubsu.ru/ru/science">
-										<h3 style="color: rgb(250, 208, 126);">Наука и Инновации</h3>
-									</a>
-								</div>
-								<div>
-									<img src="../../baby_boy_54.png" width=960 alt="">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<footer>
-			<h6>(c)Князян Армен</h6>
-		</footer>
-</body>
+    <div class="div1">
+	<p id="Нумерованный_список"></p><a id="Гиперссылки"></a>
+    <h2>Нумерованный список</h2>
+    <ol>
+       <li><a href="http://www.kubsu.ru/" target="_blank">Абсолютная гиперссылка на сайт КубГУ</a></li>
+       <li><a href="https://www.kubsu.ru/" target="_blank">Абсолютная гиперссылка на сайт КубГУ в протоколе https</a></li>
+       <li><a href = "ftp://example.com/myfile.zip" target="_blank"> Ссылка на файл на сервере FTP без авторицации  </a> </li>
+       <li><a href = "ftp://user:password@example.com/myfile.zip" target="_blank"> Ссылка на файл на сервере FTP с авторизацией </a></li>
+       <li><a href = "https://ru.wikipedia.org/wiki/HTML#Структура_HTML-документа" target="_blank">Ссылка на фрагмент некоторого сайта </a></li>
+       <li><a href="#Форма">ссылка на фрагмент текущей страницы</a></li>
+       <li><a href ="https://yandex.ru/search/?text=КубГУ&lr=35" target="_blank">Ссылка с двумя параметрами в URL</a></li>
+       <li>Список ссылок основной навигации сайта:
+	<nav class="nav2">
+	 <ul>
+		<li><a href="#Нумерованный_список">Нумерованный список</a></li>
+		<li><a href="#Форма">Форма</a></li>
+	 </ul>
+	</nav></li>
+       <li><a>Ссылка без href</a></li>
+       <li><a href="">Ссылка с пустым href</a></li>
+       <li><a href="http://www.kubsu.ru/" rel="nofollow" target="_blank">Ссылка, по которой запрещен переход поискавикам(Яндексу)</a></li>
+       <li><a href="http://www.kubsu.ru/" target="_blank" rel="noindex">Cсылка, запрещенная для индексации поисковикам</a></li>
+       <li>Контекстная в тексте абзаца:<p> HTML — стандартизированный язык разметки документов для просмотра веб-страниц в <a href="https://ru.wikipedia.org/wiki/Браузер" target="_blank">браузере</a>. Веб-браузеры получают HTML документ от сервера по протоколам <a href="https://ru.wikipedia.org/wiki/HTTP" target="_blank">HTTP</a>/<a href="https://ru.wikipedia.org/wiki/HTTPS" target="_blank">HTTPS</a> или открывают с локального диска, далее интерпретируют код в интерфейс, который будет отображаться на экране монитора. </p> </li>
+       <li>Cсылка-изображение: <p><a id="Kubsu" href="https://kubsu.ru/" target="_blank"><img alt = "Сайт КубГУ" src = "https://www.kubsu.ru/sites/default/files/news/logotip_s_kubgu_copy.jpg" height = "702" width = "673"> </a></p></li>
+       <li>Ссылки из прямоугольных и круглых областей картинки:
+		<p><img alt="smurf1" src = "https://img2.freepng.ru/20180427/cwq/kisspng-t-shirt-the-smurfs-clumsy-smurf-gargamel-papa-smur-5ae2de829a5041.9217668115248175386321.jpg" height = "650" width = "480" usemap = "#"></p>
+		<p><map name = "">
+			<area alt="" shape = "circle" coords = "239,485,160" href = "https://ru.wikipedia.org/wiki/Горшенёв,_Михаил_Юрьевич" target="_blank" title = "">
+			<area alt="" shape = "rect" coords = "130,54,406,286" href = "https://krasnodog.ru/" target="_blank" title = "">
+		</map></p>
+		
+        </li>
+        <li> <a href = "./example.html" > Относительная ссылка на страницу в текущем каталоге</a> </li>
+	<li> <a href = "./about/example.html" > Относительная ссылка на страницу в каталоге about </a> </li>
+	<li> <a href = "../example.html" > Относительная ссылка на страницу в каталоге уровнем выше текущего </a> </li>
+	<li> <a href = "../../example.com" > Относительная ссылка на страницу в каталоге двумя уровнями выше </a> </li>
+	<li> <a href = "/" > Сокращенная ссылка на главную страницу </a> </li>
+	<li> <a href = "/example.html" > Сокращенная ссылка на внутреннюю страницу </a> </li>
+    </ol>
+    </div>
 
-</html>
+    <div class="div2">
+     <a id="Таблица"></a>
+      <table>
+	<tr>
+		<th>Колонка 1</th>
+		<th>Колонка 2</th>
+		<th>Колонка 3</th>
+		<th>Колонка 4</th>
+	</tr>
+	<tr class="nechet">
+		<td colspan="4">объединенная ячейка</td>
+	</tr>
+	<tr class="chet">
+		<td>Ячейка 1</td>
+		<td>Ячейка 2</td>
+		<td>Ячейка 3</td>
+		<td>Ячейка 4</td>
+	</tr>
+	<tr class="nechet">
+		<td rowspan="2">объединенная ячейка</td>
+		<td>Ячейка 5</td>
+		<td>Ячейка 6</td>
+		<td>Ячейка 7</td>
+	</tr>
+	<tr class="chet">
+		<td>Ячейка 8</td>
+		<td>Ячейка 9</td>
+		<td>Ячейка 10</td>
+	</tr>
+	<tr class="nechet">
+		<td>Ячейка 11</td>
+		<td>Ячейка 12</td>
+		<td>Ячейка 13</td>
+		<td>Ячейка 14</td>
+	</tr>
+    </table>
+   </div>
+
+    <div class="div3">
+    <strong>Форма</strong>
+    <form action="/" method="POST">
+      <label><a id="Форма"></a>
+        Имя:<br />
+        <input name="field-name-1"
+          value="" />
+      </label><br />
+      <label>
+        Email:<br />
+        <input name="field-email"
+          value=""
+          type="email" />
+      </label><br />
+      <label>
+        Дата рождения:<br />
+        <input name="field-date"
+          value=""
+          type="date" />
+      </label><br />  
+      Ваш пол:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Значение1" />
+        Мужской</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        Женский</label><br />
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        Боевой вертолет</label><br />
+      Колличество ваших конечностей:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Значение1" />
+        Нет</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        Менее 2</label><br />
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        Более 2</label><br />
+      <label>
+        Сверхспособности:
+        <br />
+        <select name="field-name-4[]"
+          multiple="multiple">
+          <option value="Значение1">Бессмертие</option>
+          <option value="Значение2" selected="selected">Прохождение сквозь стены</option>
+          <option value="Значение3" selected="selected">Левитаия</option>
+        </select>
+      </label><br />
+      <label>
+        Биография:<br />
+        <textarea name="field-name-2"></textarea>
+      </label><br />
+     <br /><label><input type="checkbox" checked="checked" name="check-1" />С контрактом ознакомлен</label><br />
+      <input type="submit" value="Отправить" />
+    </form>
+    </div>
+   </main>
+
+   <footer>
+    <div class="div4">
+      <p><span> (c) Князян Армен 2021</span></p>
+    </div>
+   </footer>
+  </body>
+</html> 
