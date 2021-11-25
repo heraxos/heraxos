@@ -138,7 +138,7 @@
 .item-6{
    order:6
 }
- @media  screen and (min-width:700px) {
+ @media  screen and (min-width: 768px) {
       .ored{
          background-color: #f7e11b ;
          width: 100%;
