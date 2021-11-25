@@ -1,0 +1,15 @@
+header{width:100%; background-color:#8e6ec9; padding: 10px; height:120px}
+#img_header{float:left; margin:10px; width:200px; height:100px}
+#div_headertittle{background-color:#599491; padding:10px}
+.chet{background-color:#184d460c}
+.nechet{background-color:#0A97B0}
+body{margin:0; background-color:#9399FF}
+nav{max-width:960px; background-color:#FF80B0; margin: 0 auto; margin-top:20px; padding:10px}
+nav.nav2{background-color:#FFC7C7; margin-bottom:20px}
+.div1{max-width:960px; background-color:#49ffb9; margin: 0 auto; margin-top:20px; padding:10px}
+.div2{max-width:960px; background-color:#ffb0ce; margin: 0 auto; margin-top:20px; padding:10px}
+.div3{text-align:center;max-width:960px; background-color:#83dcff; margin: 0 auto; margin-top:20px; padding:10px}
+table {margin:auto;border: 1px solid black}
+table td,table th{text-align:center;border: 1px solid black}
+footer{width:100%; background-color:#9c8454; margin:10px 0 0 0; padding:50px}
+div.div4{width:165px;background-color:#d1f74a}
